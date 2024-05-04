@@ -1,0 +1,90 @@
+.image-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    height: 45em;
+    padding: 6em 12em 0;
+}
+
+.image-title{
+    font-family: Viaoda-Libre, sans-serif;
+    font-weight: 100;
+    font-size: 4.2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+
+}
+
+.image-text{
+    color: rgb(61, 61, 61);
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+.formulario {
+    margin: 0 auto;
+    text-align: center; 
+    width: 100%;
+    background-color: #EEE;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 10px
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 8px;
+    border-style: hidden;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #8068f5;
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+
+.chat-container{
+    margin: 4em auto 0;
+    text-align: center; 
+    width: 100%;
+    background-color: #EEE;
+    padding: 12px;
+    border-radius: 8px;
+
+}
+
+.bot-response {
+    background-color: #EEE; 
+    color: #333; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.bot-response p {
+    margin: 0;
+}
+
+button:hover {
+    background-color: #47369c; 
+}
+

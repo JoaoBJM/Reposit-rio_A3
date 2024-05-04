@@ -1,0 +1,86 @@
+.main-header-title{
+    margin-left: 0.4em;
+}
+
+.menu-itens-active{
+     background-color: #9C88FF;
+     color: black;
+     padding: 16px;
+     border-radius: 12px;
+     pointer-events: none;
+    
+}
+
+
+.main-title{
+    padding-top: 1.0em;
+    text-transform: uppercase;
+    font-size: 64px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    padding: 0 3.2em 6.4em;
+    gap: 16px;
+}
+
+.card{
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(34, 42, 49);
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 12px black;
+    display: flex;
+
+}
+
+.card-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: solid #8068f5 2px;
+}
+
+.card p{
+    margin-top: 0;
+}
+
+.card-pricing{
+    font-size: 32px;
+}
+
+.card-list{
+    margin: 0 0 35px;
+    color: rgba(255, 255, 255, 0.76);
+    padding-left: 16px;
+    line-height: 0.8;
+    flex-grow: 1;
+
+
+}
+
+.card-list li::marker{
+    color: #8068f5;
+}
+
+
+.card-action{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 16px 10px;
+    background-color: #8068f5;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.card-action:hover{
+    color: #8068f5;
+    outline: 2px solid #8068f5;
+    background-color: rgb(34, 42, 49);
+}
