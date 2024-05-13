@@ -74,3 +74,11 @@
 
 }
 
+.menu-itens-active{
+    background-color: #9C88FF;
+    color: black;
+    padding: 16px;
+    border-radius: 12px;
+    pointer-events: none;
+   
+}
