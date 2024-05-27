@@ -1,7 +1,9 @@
 import React from 'react'
-import Velocidade from "/Users/Matheus/Desktop/ProjetoA3_Reescreva/projetoa3_reescreva/src/images/first-section-card/velocidade.png"
-import Eficiencia from "/Users/Matheus/Desktop/ProjetoA3_Reescreva/projetoa3_reescreva/src/images/first-section-card/alvo.png"
-import Facil from "/Users/Matheus/Desktop/ProjetoA3_Reescreva/projetoa3_reescreva/src/images/first-section-card/facil.png"
+import Velocidade from "./images/first-section-card/velocidade.png"
+import Eficiencia from "./images/first-section-card/alvo.png"
+import Facil from "./images/first-section-card/facil.png"
+
+
 
 
 const Landing = (props) => {
