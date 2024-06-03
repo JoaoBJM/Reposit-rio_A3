@@ -88,6 +88,37 @@ const Landing = (props) => {
                     < App />
                   </article>
 
+                 {/* SEÇÃO DOS NOMES */} 
+                 <article className="first-article">
+                    <h1 className="first-article-title">Sobre o projeto</h1>
+                    <p className="first-article-text">Conheça os criadores do projeto</p>
+                </article>
+
+                  <section className="main-section">
+
+                  <article className="section-names">
+                    <p className="names-title_3">João Victor Bonini</p>
+                    <p className="names-description">823124529</p>
+                </article>
+
+                <article className="section-names">
+                    <p className="names-title_3">Gabriel Ribeiro Sales</p>
+                    <p className="names-description">822220317</p>
+                </article>
+
+                <article className="section-names">
+                    <p className="names-title_3">Mateus Chaves Broll</p>
+                    <p className="names-description">822226355</p>
+                </article>
+
+                <article className="section-names">
+                    <p className="names-title_3">Matheus Araujo de Carvalho</p>
+                    <p className="names-description">822223290</p>
+                </article>
+            </section>
+
+            
+
          </main>
 
     )
