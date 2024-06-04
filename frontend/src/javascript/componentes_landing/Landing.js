@@ -4,7 +4,12 @@ import axios from "axios";
 import Velocidade from "./images/first-section-card/velocidade.png"
 import Eficiencia from "./images/first-section-card/alvo.png"
 import Facil from "./images/first-section-card/facil.png"
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
+
+
+
+// Aplicação do ChatGPT (Conexão Backend + Frontend)
 function App() {
     const [result,setResult] = useState('');
     const [prompt,setPrompt] = useState('');
@@ -25,11 +30,11 @@ function App() {
   
     
     
-  
+    // Componente do Prompt da API
     return (
     <div className='container'>
         <div className='inside-container'> 
-            <input className='label-dec' type="text" placeholder='Reescreva:' onChange={(e) => setPrompt("Reescreva este texto mais formalmente: " + e.target.value)}/>
+            <input className='input-dec' type="text" placeholder='Reescreva:' onChange={(e) => setPrompt("Reescreva este texto mais formalmente: " + e.target.value)}/>
             <button className='button' onClick={handleClick}>Enviar</button>
             <div className='resultDiv'>
                 <b>Resultado: </b>{result}
@@ -45,7 +50,7 @@ function App() {
   
   
 
-
+// Interface Visual (JSX)
 const Landing = (props) => {
     return (
 
@@ -81,41 +86,86 @@ const Landing = (props) => {
             </section>
 
             {/* SEGUNDA SEÇÃO (CHATGPT) */}
-                 <article className="image-box">
-                    <h1 className="image-title">Transforme e crie</h1>
-                    <p className="image-text">Insira o contéudo desejado abaixo e viva a experiência de transformar</p>
+            <article className="image-box">
+                <h1 className="image-title">Transforme e crie</h1>
+                <p className="image-text">Insira o contéudo desejado abaixo e viva a experiência de transformar</p>
 
-                    < App />
-                  </article>
+                < App />
+            </article>
 
-                 {/* SEÇÃO DOS NOMES */} 
-                 <article className="first-article">
-                    <h1 className="first-article-title">Sobre o projeto</h1>
-                    <p className="first-article-text">Conheça os criadores do projeto</p>
-                </article>
+            {/* SESSÃO DE CONTATOS */} 
+            <article className="first-article">
+                <h1 className="first-article-title">Sobre o projeto</h1>
+                <p className="first-article-text">Conheça os criadores do projeto</p>
+            </article>
 
-                  <section className="main-section">
+            <article className='contact-article'>
+                <div className="list-wrapper">
+                    <ul className="list">
+                        <li className="list-item">
+                            <div className="list-item-content">
+                                <p className="list-item-name">Gabriel Ribeiro</p>
+                                <p className="list-item-contact">RA:822220317</p>
+                            </div>
+                            <div className="list-item-actions">
+                                <a href="#">
+                                    <FaWhatsapp style={{fontSize:35}} alt='whatsapp' />
+                                </a>
+                                <a href="https://www.instagram.com/grs_gabriel/">
+                                    <FaInstagram style={{fontSize:35}} alt='instagram' />
+                                </a>
+                            </div>
+                        </li>
 
-                  <article className="section-names">
-                    <p className="names-title_3">João Victor Bonini</p>
-                    <p className="names-description">823124529</p>
-                </article>
+                        <li className="list-item">
+                            <div className="list-item-content">
+                                <p className="list-item-name">João Victor</p>
+                                <p className="list-item-contact">RA:823124529</p>
+                            </div>
+                            <div className="list-item-actions">
+                                <a href="#">
+                                    <FaWhatsapp style={{fontSize:35}} alt='whatsapp' />
+                                </a>
+                                <a href="https://www.instagram.com/_boniini/">
+                                    <FaInstagram style={{fontSize:35}} alt='instagram' />
+                                </a>
+                            </div>
+                        </li>
 
-                <article className="section-names">
-                    <p className="names-title_3">Gabriel Ribeiro Sales</p>
-                    <p className="names-description">822220317</p>
-                </article>
+                        <li className="list-item">
+                            <div className="list-item-content">
+                                <p className="list-item-name">Mateus Broll</p>
+                                <p className="list-item-contact">RA:822226355</p>
+                            </div>
+                            <div className="list-item-actions">
+                                <a href="#">
+                                    <FaWhatsapp style={{fontSize:35}} alt='whatsapp' />
+                                </a>
+                                <a href="https://www.instagram.com/obrooll/">
+                                    <FaInstagram style={{fontSize:35}} alt='instagram' />
+                                </a>
+                            </div>
+                        </li>
 
-                <article className="section-names">
-                    <p className="names-title_3">Mateus Chaves Broll</p>
-                    <p className="names-description">822226355</p>
-                </article>
+                        <li className="list-item">
+                            <div className="list-item-content">
+                                <p className="list-item-name">Matheus Araujo</p>
+                                <p className="list-item-contact">RA:822223290</p>
+                            </div>
+                            <div className="list-item-actions">
+                                <a href="#">
+                                    <FaWhatsapp style={{fontSize:35}} alt='whatsapp' />
+                                </a>
+                                <a href="https://www.instagram.com/matthcarv_/">
+                                    <FaInstagram style={{fontSize:35}} alt='instagram' />
+                                </a>
+                            </div>
+                        </li>
+     
+                    </ul>
+                </div>
+            </article>
 
-                <article className="section-names">
-                    <p className="names-title_3">Matheus Araujo de Carvalho</p>
-                    <p className="names-description">822223290</p>
-                </article>
-            </section>
 
             
 

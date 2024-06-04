@@ -9,6 +9,7 @@ import './styles/header.css'
 import './styles/footer.css'
 import './styles/index_styles/first-article.css'
 import './styles/index_styles/second-article.css'
+import './styles/contato_styles/contato.css'
 
 ReactDOM.render(
   <React.StrictMode>

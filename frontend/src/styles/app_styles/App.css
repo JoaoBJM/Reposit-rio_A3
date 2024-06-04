@@ -27,10 +27,20 @@
     padding: 16px;
     border-radius: 8px;
   }
+
+  .input-dec{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 8px;
+    border-style: hidden;
+    outline: none;
+    box-sizing: border-box;
+  }
   
   
   .button{
-    width: 1000px;
+    width: 1400px;
     color: white;
     background-color: #9C88FF;
     padding: 10px;
@@ -38,6 +48,7 @@
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
   }
   
   
