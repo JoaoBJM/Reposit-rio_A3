@@ -34,7 +34,7 @@ function App() {
     return (
     <div className='container'>
         <div className='inside-container'> 
-            <input className='input-dec' type="text" placeholder='Reescreva:' onChange={(e) => setPrompt("Reescreva este texto mais formalmente: " + e.target.value)}/>
+            <input className='input-dec' type="text" placeholder='Reescreva:' onChange={(e) => setPrompt("Reescreva este texto mais formalmente se tiver informal, ou informal se tiver muito formal: " + e.target.value)}/>
             <button className='button' onClick={handleClick}>Enviar</button>
             <div className='resultDiv'>
                 <b>Resultado: </b>{result}
